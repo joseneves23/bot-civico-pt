@@ -1,0 +1,104 @@
+{
+  "cidades": [
+    {
+      "nome": "Lisboa",
+      "camaraMunicipal": {
+        "endereco": "Praça do Município, 1",
+        "horario": "Segunda a Sexta, 9h às 17h"
+      },
+      "transportes": {
+        "autocarros": "Horários variam conforme a linha",
+        "metro": "Funcionamento diário das 6h30 às 1h"
+      },
+      "centrosSaude": [
+        {
+          "nome": "Centro de Saúde de Lisboa",
+          "endereco": "Rua da Saúde, 10",
+          "horario": "Segunda a Sexta, 8h às 20h"
+        }
+      ],
+      "servicosPublicos": [
+        {
+          "nome": "Cartão de Cidadão",
+          "endereco": "Rua do Cidadão, 5",
+          "horario": "Segunda a Sexta, 9h às 17h"
+        }
+      ]
+    },
+    {
+      "nome": "Porto",
+      "camaraMunicipal": {
+        "endereco": "Praça da Liberdade, 1",
+        "horario": "Segunda a Sexta, 9h às 17h"
+      },
+      "transportes": {
+        "autocarros": "Horários variam conforme a linha",
+        "metro": "Funcionamento diário das 6h às 1h"
+      },
+      "centrosSaude": [
+        {
+          "nome": "Centro de Saúde do Porto",
+          "endereco": "Avenida da Saúde, 20",
+          "horario": "Segunda a Sexta, 8h às 20h"
+        }
+      ],
+      "servicosPublicos": [
+        {
+          "nome": "Cartão de Cidadão",
+          "endereco": "Rua do Cidadão, 10",
+          "horario": "Segunda a Sexta, 9h às 17h"
+        }
+      ]
+    },
+    {
+      "nome": "Braga",
+      "camaraMunicipal": {
+        "endereco": "Avenida da Liberdade, 100",
+        "horario": "Segunda a Sexta, 9h às 17h"
+      },
+      "transportes": {
+        "autocarros": "Horários variam conforme a linha",
+        "comboios": "Funcionamento diário das 5h às 23h"
+      },
+      "centrosSaude": [
+        {
+          "nome": "Centro de Saúde de Braga",
+          "endereco": "Rua da Saúde, 15",
+          "horario": "Segunda a Sexta, 8h às 20h"
+        }
+      ],
+      "servicosPublicos": [
+        {
+          "nome": "Cartão de Cidadão",
+          "endereco": "Rua do Cidadão, 3",
+          "horario": "Segunda a Sexta, 9h às 17h"
+        }
+      ]
+    },
+    {
+      "nome": "Setúbal",
+      "camaraMunicipal": {
+        "endereco": "Praça do Município, 2",
+        "horario": "Segunda a Sexta, 9h às 17h"
+      },
+      "transportes": {
+        "autocarros": "Horários variam conforme a linha",
+        "barcos": "Funcionamento diário das 6h às 22h"
+      },
+      "centrosSaude": [
+        {
+          "nome": "Centro de Saúde de Setúbal",
+          "endereco": "Rua da Saúde, 5",
+          "horario": "Segunda a Sexta, 8h às 20h"
+        }
+      ],
+      "servicosPublicos": [
+        {
+          "nome": "Cartão de Cidadão",
+          "endereco": "Rua do Cidadão, 8",
+          "horario": "Segunda a Sexta, 9h às 17h"
+        }
+      ]
+    }
+  ]
+}
