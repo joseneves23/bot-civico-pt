@@ -42,10 +42,12 @@ const Home = () => {
 };
 
     return (
-        <div>
+        <div className="container">
             <h1>Bot Cívico</h1>
-            <ChatMessages messages={messages} />
-            <ChatInput onSend={handleSendMessage} />
+            <div className="chat-container">
+                <ChatMessages messages={messages} />
+                <ChatInput onSend={handleSendMessage} />
+            </div>
         </div>
     );
 };
