@@ -43,8 +43,6 @@ async function getFallbackFromOllama(message: string): Promise<string> {
 }
 
 
-
-
 export async function getResponseFromLLM(message: string): Promise<string> {
     const msg = message.toLowerCase();
 

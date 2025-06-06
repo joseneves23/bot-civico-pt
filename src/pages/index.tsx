@@ -28,17 +28,13 @@ const Home = () => {
         body: JSON.stringify({ message }),
     });
 
-    const data = await response.json();
-
-    // Simula atraso de 700ms antes de mostrar a resposta do bot
-    setTimeout(() => {
+        const data = await response.json();
         const botMessage: Message = {
-            id: Date.now() + Math.floor(Math.random() * 1000),
-            text: data.reply,
-            sender: 'bot',
-        };
-        setMessages((prev) => [...prev, botMessage]);
-    }, 700);
+        id: Date.now() + Math.floor(Math.random() * 1000),
+        text: data.reply,
+        sender: 'bot',
+    };
+    setMessages((prev) => [...prev, botMessage]);
 };
 
     return (
