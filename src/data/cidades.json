@@ -1,104 +1,471 @@
 {
   "cidades": [
     {
-      "nome": "Lisboa",
+      "nome": "Póvoa de Varzim",
       "camaraMunicipal": {
-        "endereco": "Praça do Município, 1",
-        "horario": "Segunda a Sexta, 9h às 17h"
+        "endereco": "Praça do Almada, 4490‑438 Póvoa de Varzim",
+        "horario": "2ª‑6ª, 9h‑17h",
+        "contacto": "252090000",
+        "email": "geral@cm-pvarzim.pt",
+        "link": "https://www.cm-pvarzim.pt"
+      },
+      "centroSaude": {
+        "horarioGeral": "8h‑20h (varia por unidade)",
+        "link": "https://www.ulsam.min-saude.pt"
+      },
+      "cartaoCidadao": {
+        "espacoCidadao": "2ª‑6ª, 8h30‑12h30",
+        "link": "https://www.gov.pt/locais-de-atendimento-de-servicos-publicos/espaco-cidadao-da-povoa-de-varzim-a-ver-o-mar"
       },
       "transportes": {
-        "autocarros": "Horários variam conforme a linha",
-        "metro": "Funcionamento diário das 6h30 às 1h"
+        "redeUrbana": "Próximo – horários no site ou Moovit",
+        "link": "https://www.proximo.pt"
+      }
+    },
+    {
+      "nome": "Viana do Castelo",
+      "camaraMunicipal": {
+        "horario": "2ª‑6ª, 9h‑16h30",
+        "contacto": "258809304",
+        "link": "https://www.cm-viana-castelo.pt"
       },
-      "centrosSaude": [
-        {
-          "nome": "Centro de Saúde de Lisboa",
-          "endereco": "Rua da Saúde, 10",
-          "horario": "Segunda a Sexta, 8h às 20h"
-        }
-      ],
-      "servicosPublicos": [
-        {
-          "nome": "Cartão de Cidadão",
-          "endereco": "Rua do Cidadão, 5",
-          "horario": "Segunda a Sexta, 9h às 17h"
-        }
-      ]
+      "centroSaude": {
+        "horario": "08h‑20h (varia por unidade)",
+        "hospital": "Santa Luzia – 258802100",
+        "link": "https://www.ulsam.min-saude.pt"
+      },
+      "cartaoCidadao": {
+        "agenda": "via portal Siga ou linha 210990111",
+        "link": "https://justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+      },
+      "transportes": {
+        "info": "autocarros / comboios via sites oficiais regionais"
+      }
+    },
+    {
+      "nome": "Lisboa",
+      "camaraMunicipal": {
+        "endereco": "Edifício Central (Campo Grande), Lisboa",
+        "horario": "2ª‑6ª, 08h‑20h",
+        "contacto": "800 910 211 / 218 170 552",
+        "link": "https://www.lisboa.pt/" 
+      },
+      "centrosSaude": {
+        "horarioGeral": "2ª‑6ª, 08h‑20h (USF e UCSP)",
+        "link": "https://www.arslvt.min‑saude.pt/centros‑de‑saude‑fora‑de‑horas" 
+      },
+      "cartaoCidadao": {
+        "agendamento": "via portal Siga / linha 210 990 111",
+        "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao" 
+      },
+      "transportes": {
+        "metro": "Todos os dias, 06h30‑01h00",
+        "autocarros": "Horários no site Carris",
+        "linkMetro": "https://www.metrolisboa.pt/viajar/horarios-e-frequencias/",
+        "linkAutocarros": "https://www.carris.pt"
+      }
+    },
+    {
+      "nome": "Coimbra",
+      "camaraMunicipal": {
+        "endereco": "Praça 8 de Maio, nº 38, Coimbra",
+        "horario": "2ª‑6ª, 08h30‑16h30",
+        "contacto": "239 857 171",
+        "link": "https://www.cm‑coimbra.pt"
+      },
+      "centrosSaude": {
+        "horarioGeral": "USF e UCSP: 2ª‑6ª, 08h‑20h",
+        "linkULS": "https://bicsp.min‑saude.pt/pt/biufs"
+      },
+      "cartaoCidadao": {
+        "agendamento": "Loja Cidadão Coimbra – 300 003 990 (2ª‑6ª, 09h‑18h)",
+        "link": "https://www2.gov.pt/locais-de-atendimento-de-servicos-publicos/loja-de-cidadao-de-coimbra"
+      },
+      "transportes": {
+        "info": "Autocarros urbanos e regionais",
+        "link": "https://www.cm‑coimbra.pt/areas/viver/municipio/contactos"
+      }
     },
     {
       "nome": "Porto",
       "camaraMunicipal": {
-        "endereco": "Praça da Liberdade, 1",
-        "horario": "Segunda a Sexta, 9h às 17h"
+        "endereco": "Praça General Humberto Delgado, 4049‑001 Porto",
+        "horario": "2ª‑6ª, 09h00‑17h00",
+        "contacto": "220 100 220 (Linha Porto: 09h‑19h)",
+        "email": "geral@cm‑porto.pt",
+        "link": "https://www.cm-porto.pt/" 
+      },
+      "centroSaude": {
+        "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00 · Atendimento Complementar: fins‑de‑semana e feriados, 09h00‑16h45",
+        "contacto": "220 412 200",
+        "link": "https://acesportoocidental.org" 
+      },
+      "cartaoCidadao": {
+        "agendamento": "Loja do Cidadão Porto – +351 225 571 887 · agendamento através do portal Siga ou Linha CC 210 990 111",
+        "link": "https://www.justica.gov.pt/Servicos/Agendar‑Cartao‑de‑Cidadao"
       },
       "transportes": {
-        "autocarros": "Horários variam conforme a linha",
-        "metro": "Funcionamento diário das 6h às 1h"
-      },
-      "centrosSaude": [
-        {
-          "nome": "Centro de Saúde do Porto",
-          "endereco": "Avenida da Saúde, 20",
-          "horario": "Segunda a Sexta, 8h às 20h"
-        }
-      ],
-      "servicosPublicos": [
-        {
-          "nome": "Cartão de Cidadão",
-          "endereco": "Rua do Cidadão, 10",
-          "horario": "Segunda a Sexta, 9h às 17h"
-        }
-      ]
+        "metro": "Metro do Porto – diariamente, 06h‑00h30 (ver horários e frequências no site)",
+        "autocarros": "STCP – rede urbana + nocturna (00h30‑06h00) – horários em tempo real via Move‑Me ou Next.Bus",
+        "linkMetro": "https://www.metrodoporto.pt",
+        "linkAutocarros": "https://www.stcp.pt"
+      }
     },
-    {
-      "nome": "Braga",
-      "camaraMunicipal": {
-        "endereco": "Avenida da Liberdade, 100",
-        "horario": "Segunda a Sexta, 9h às 17h"
-      },
-      "transportes": {
-        "autocarros": "Horários variam conforme a linha",
-        "comboios": "Funcionamento diário das 5h às 23h"
-      },
-      "centrosSaude": [
-        {
-          "nome": "Centro de Saúde de Braga",
-          "endereco": "Rua da Saúde, 15",
-          "horario": "Segunda a Sexta, 8h às 20h"
+      {
+        "nome": "Braga",
+        "camaraMunicipal": {
+          "endereco": "Praça do Município, 4700-435 Braga",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "253 203 400",
+          "email": "geral@braga.pt",
+          "link": "https://www.braga.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital de Braga – 253 027 000",
+          "link": "https://www.ulsbraga.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Loja do Cidadão Braga – 253 218 730",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "TUB – Transportes Urbanos de Braga",
+          "link": "https://www.tub.pt"
         }
-      ],
-      "servicosPublicos": [
-        {
-          "nome": "Cartão de Cidadão",
-          "endereco": "Rua do Cidadão, 3",
-          "horario": "Segunda a Sexta, 9h às 17h"
-        }
-      ]
-    },
-    {
-      "nome": "Setúbal",
-      "camaraMunicipal": {
-        "endereco": "Praça do Município, 2",
-        "horario": "Segunda a Sexta, 9h às 17h"
       },
-      "transportes": {
-        "autocarros": "Horários variam conforme a linha",
-        "barcos": "Funcionamento diário das 6h às 22h"
+      {
+        "nome": "Faro",
+        "camaraMunicipal": {
+          "endereco": "Largo da Sé, 8000-138 Faro",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "289 870 870",
+          "email": "geral@cm-faro.pt",
+          "link": "https://www.cm-faro.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital de Faro – 289 891 100",
+          "link": "https://www.ulsalgarve.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Loja do Cidadão Faro – 289 888 900",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "Próximo Algarve",
+          "aeroporto": "Aeroporto de Faro – 289 800 800",
+          "link": "https://www.proximo.pt"
+        }
       },
-      "centrosSaude": [
-        {
-          "nome": "Centro de Saúde de Setúbal",
-          "endereco": "Rua da Saúde, 5",
-          "horario": "Segunda a Sexta, 8h às 20h"
+      {
+        "nome": "Aveiro",
+        "camaraMunicipal": {
+          "endereco": "Praça da República, 3810-156 Aveiro",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "234 406 300",
+          "email": "geral@cm-aveiro.pt",
+          "link": "https://www.cm-aveiro.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Centro Hospitalar Baixo Vouga – 234 378 300",
+          "link": "https://www.ulsave.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Espaço Cidadão Aveiro – 234 406 470",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "BUGA – Bicicletas de Utilização Gratuita de Aveiro",
+          "comboios": "Estação de Aveiro – linha do Norte",
+          "link": "https://www.cm-aveiro.pt/viver/mobilidade-e-transportes"
         }
-      ],
-      "servicosPublicos": [
-        {
-          "nome": "Cartão de Cidadão",
-          "endereco": "Rua do Cidadão, 8",
-          "horario": "Segunda a Sexta, 9h às 17h"
+      },
+      {
+        "nome": "Setúbal",
+        "camaraMunicipal": {
+          "endereco": "Praça de Bocage, 2900-276 Setúbal",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "265 541 500",
+          "email": "geral@mun-setubal.pt",
+          "link": "https://www.mun-setubal.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital de São Bernardo – 265 549 000",
+          "link": "https://www.arslvt.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Loja do Cidadão Setúbal – 265 545 020",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "Carris Metropolitana",
+          "ferries": "Ligação fluvial Setúbal-Tróia",
+          "link": "https://www.carrismetropolitana.pt"
         }
-      ]
-    }
-  ]
-}
+      },
+      {
+        "nome": "Évora",
+        "camaraMunicipal": {
+          "endereco": "Praça do Sertório, 7004-506 Évora",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "266 777 000",
+          "email": "geral@cm-evora.pt",
+          "link": "https://www.cm-evora.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital do Espírito Santo – 266 740 100",
+          "link": "https://www.ulsace.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Loja do Cidadão Évora – 266 769 770",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "Transportes urbanos de Évora",
+          "comboios": "Estação de Évora – linha do Alentejo",
+          "link": "https://www.cm-evora.pt"
+        }
+      },
+      {
+        "nome": "Leiria",
+        "camaraMunicipal": {
+          "endereco": "Largo da República, 2414-006 Leiria",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "244 839 500",
+          "email": "geral@cm-leiria.pt",
+          "link": "https://www.cm-leiria.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital de Santo André – 244 817 000",
+          "link": "https://www.ulsleiria.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Loja do Cidadão Leiria – 244 835 140",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "Mobilidade Urbana de Leiria",
+          "link": "https://www.cm-leiria.pt/viver/transportes-e-mobilidade"
+        }
+      },
+      {
+        "nome": "Viseu",
+        "camaraMunicipal": {
+          "endereco": "Praça da República, 3504-509 Viseu",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "232 427 000",
+          "email": "geral@cm-viseu.pt",
+          "link": "https://www.cm-viseu.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital de São Teotónio – 232 420 500",
+          "link": "https://www.chtv.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Loja do Cidadão Viseu – 232 480 580",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "Studar – Transportes Urbanos de Viseu",
+          "link": "https://www.studar.pt"
+        }
+      },
+      {
+        "nome": "Santarém",
+        "camaraMunicipal": {
+          "endereco": "Largo do Município, 2000-003 Santarém",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "243 309 200",
+          "email": "geral@cm-santarem.pt",
+          "link": "https://www.cm-santarem.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital de Santarém – 243 300 200",
+          "link": "https://www.ulsmt.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Espaço Cidadão Santarém – 243 305 570",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "Rodoviária do Tejo",
+          "comboios": "Estação de Santarém – linha do Norte",
+          "link": "https://www.rodotejo.pt"
+        }
+      },
+      {
+        "nome": "Vila Nova de Gaia",
+        "camaraMunicipal": {
+          "endereco": "Rua Álvares Cabral, 4400-017 Vila Nova de Gaia",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "223 758 500",
+          "email": "geral@cm-gaia.pt",
+          "link": "https://www.cm-gaia.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Centro Hospitalar Vila Nova de Gaia – 227 865 100",
+          "link": "https://www.chvng.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Loja do Cidadão Gaia – 223 401 850",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "metro": "Metro do Porto (linhas A, C, D)",
+          "autocarros": "STCP e operadores privados",
+          "linkMetro": "https://www.metrodoporto.pt"
+        }
+      },
+      {
+        "nome": "Funchal",
+        "camaraMunicipal": {
+          "endereco": "Praça do Município, 9004-512 Funchal",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "291 211 000",
+          "email": "geral@cm-funchal.pt",
+          "link": "https://www.cm-funchal.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital Dr. Nélio Mendonça – 291 705 600",
+          "link": "https://www.sesaram.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "IRN Madeira – 291 208 200",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "Horários do Funchal",
+          "teleférico": "Teleférico do Funchal – 291 780 280",
+          "link": "https://www.horariosdofunchal.pt"
+        }
+      },
+      {
+        "nome": "Guimarães",
+        "camaraMunicipal": {
+          "endereco": "Alameda de São Dâmaso, 4810-532 Guimarães",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "253 421 200",
+          "email": "geral@cm-guimaraes.pt",
+          "link": "https://www.cm-guimaraes.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital Senhora da Oliveira – 253 540 330",
+          "link": "https://www.ulsbraga.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Loja do Cidadão Guimarães – 253 421 800",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "TUG – Transportes Urbanos de Guimarães",
+          "link": "https://www.tug.pt"
+        }
+      },
+      {
+        "nome": "Portimão",
+        "camaraMunicipal": {
+          "endereco": "Praça 1º de Maio, 8500-581 Portimão",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "282 470 700",
+          "email": "geral@cm-portimao.pt",
+          "link": "https://www.cm-portimao.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital de Portimão – 282 450 300",
+          "link": "https://www.ulsalgarve.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Loja do Cidadão Portimão – 282 480 470",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "Onda – Transportes do Algarve",
+          "marina": "Marina de Portimão",
+          "link": "https://www.eva-bus.com"
+        }
+      },
+      {
+        "nome": "Castelo Branco",
+        "camaraMunicipal": {
+          "endereco": "Praça do Município, 6000-458 Castelo Branco",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "272 330 330",
+          "email": "geral@cm-castelobranco.pt",
+          "link": "https://www.cm-castelobranco.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital Amato Lusitano – 272 000 272",
+          "link": "https://www.ulscb.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Loja do Cidadão Castelo Branco – 272 320 950",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "Transportes da Beira Interior",
+          "comboios": "Estação de Castelo Branco – linha da Beira Baixa",
+          "link": "https://www.transdev.pt"
+        }
+      },
+      {
+        "nome": "Beja",
+        "camaraMunicipal": {
+          "endereco": "Praça da República, 7800-427 Beja",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "284 311 800",
+          "email": "geral@cm-beja.pt",
+          "link": "https://www.cm-beja.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital José Joaquim Fernandes – 284 310 200",
+          "link": "https://www.ulsba.min-saude.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "Loja do Cidadão Beja – 284 323 020",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "Rodoviária do Alentejo",
+          "aeroporto": "Aeroporto de Beja",
+          "link": "https://www.rodalentejo.pt"
+        }
+      },
+      {
+        "nome": "Angra do Heroísmo",
+        "camaraMunicipal": {
+          "endereco": "Praça Velha, 9700-109 Angra do Heroísmo",
+          "horario": "2ª‑6ª, 09h00‑17h00",
+          "contacto": "295 401 300",
+          "email": "geral@cmah.pt",
+          "link": "https://www.cmah.pt"
+        },
+        "centroSaude": {
+          "horarioGeral": "USF/UCSP: 2ª‑6ª, 08h00‑20h00",
+          "hospital": "Hospital de Santo Espírito – 295 403 000",
+          "link": "https://www.hdes.pt"
+        },
+        "cartaoCidadao": {
+          "agendamento": "IRN Açores – 295 404 450",
+          "link": "https://www.justica.gov.pt/Servicos/Agendar-Cartao-de-Cidadao"
+        },
+        "transportes": {
+          "autocarros": "EVT – Empresa de Viação Terceirense",
+          "aeroporto": "Aeroporto Lajes – 295 545 454",
+          "link": "https://www.evt.pt"
+        }
+      }
+    ]
+  }
