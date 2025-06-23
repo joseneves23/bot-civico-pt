@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Bot, User } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 
 interface ChatMessage {
     id: number;
@@ -70,11 +71,19 @@ const ChatMessages: React.FC<ChatMessagesProps> = ({ messages, isLoading = false
                     </div>
                     <div className="bubble">
                         {message.sender === 'bot' ? (
-                            <div
-                                className="message-text"
-                                style={{ whiteSpace: 'pre-line' }}
-                                dangerouslySetInnerHTML={{ __html: message.text }}
-                            />
+                            <div className="message-text" style={{ whiteSpace: 'pre-line' }}>
+                                <ReactMarkdown
+                                    components={{
+                                        a: (props) => (
+                                            <a {...props} target="_blank" rel="noopener noreferrer">
+                                                {props.children}
+                                            </a>
+                                        ),
+                                    }}
+                                >
+                                    {message.text}
+                                </ReactMarkdown>
+                            </div>
                         ) : (
                             <div className="message-text">{message.text}</div>
                         )}
@@ -84,6 +93,8 @@ const ChatMessages: React.FC<ChatMessagesProps> = ({ messages, isLoading = false
                     </div>
                 </div>
             ))}
+
+            
 
             
 

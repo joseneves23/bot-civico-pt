@@ -16,7 +16,8 @@
     "next": "latest",
     "openai": "^5.1.1",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-markdown": "^10.1.0"
   },
   "devDependencies": {
     "@types/node": "22.15.29",
