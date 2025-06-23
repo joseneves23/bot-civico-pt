@@ -61,14 +61,6 @@ npm run dev
 ```
 The application will be available at `http://localhost:3000`.
 
-### Environment Variables
-Copy the `.env.example` file to `.env` and fill in the required environment variables, such as API keys and configuration settings.
 
 ## Usage
 Once the application is running, users can interact with the chatbot through the web interface. Simply type your question in the input field and hit enter to receive a response.
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
